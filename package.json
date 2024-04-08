@@ -17,8 +17,7 @@
     "format:check": "prettier \"./**\" --ignore-unknown --check"
   },
   "dependencies": {
-    "dotenv": "^16.0.0",
-    "tslib": "^2.3.1"
+    "dotenv": "^16.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.0",
@@ -50,6 +49,7 @@
     "supertest": "^6.2.2",
     "ts-jest": "^27.1.4",
     "ts-node": "^10.7.0",
+    "tslib": "^2.3.1",
     "typescript": "^4.6.3"
   }
 }

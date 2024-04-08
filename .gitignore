@@ -115,3 +115,8 @@ dist
 .idea/
 .vscode/
 tools/dev
+
+#tmp files
+tmp
+tmp.*
+*.tmp
