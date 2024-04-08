@@ -1,0 +1,42 @@
+{
+  "include": ["src", ".eslintrc.cjs"],
+  "exclude": ["dist", "node_modules"],
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "baseUrl": ".",
+
+    "module": "NodeNext",
+    "target": "ES2022",
+    "composite": true,
+
+    //module resolution & interop
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+
+    //strictness & type checking
+    "strict": true,
+    "alwaysStrict": true,
+    "strictBindCallApply": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+
+    //emission
+    "sourceMap": true,
+    "declaration": true,
+    "removeComments": true,
+    "importHelpers": true,
+    "noFallthroughCasesInSwitch": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noEmitHelpers": false
+  }
+}
